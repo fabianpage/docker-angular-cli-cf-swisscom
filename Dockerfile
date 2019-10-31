@@ -1,4 +1,4 @@
-FROM node:13.0.1-buster
+FROM node:10.17.0-buster
 
 RUN apt-get update -yq
 RUN apt-get install apt-transport-https wget -yq
